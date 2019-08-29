@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccdeddf7-ff01-4039-a29a-abe2e9612ea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game of Life/task/src/life/Universe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game of Life/task/test/common/CheckResultUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game of Life/task/test/common/ClueWithChecker.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game of Life/task/test/common/GameOfLifeCommonTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game of Life/task/test/common/GameOfLifeStage3Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game of Life/task/test/common/UiTestsGenerators.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game of Life/task/build/reports/tests/test/classes/GameOfLifeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/build/reports/tests/test/classes/GameOfLifeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game of Life/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game of Life/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game of Life/task/build/test-results/test/TEST-GameOfLifeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/build/test-results/test/TEST-GameOfLifeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game of Life/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game of Life/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game of Life/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game of Life/task/src/life/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/src/life/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game of Life/task/test/GameOfLifeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game of Life/task/test/GameOfLifeTest.java" afterDir="false" />
     </list>
@@ -19,15 +31,25 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Pkw2dtflYkmXtiGu8RqCvnrNo2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -72,8 +94,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566431196274</updated>
-      <workItem from="1566431198418" duration="2036000" />
+      <workItem from="1566431198418" duration="20891000" />
     </task>
+    <task id="LOCAL-00001" summary="completed stage #1">
+      <created>1566433258445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566433258445</updated>
+    </task>
+    <task id="LOCAL-00002" summary="completed stage #1">
+      <created>1566433298778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566433298778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +126,45 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed stage #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed stage #1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Game of Life/task/src/life/Main.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Game of Life/task/src/life/Main.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Game of Life/task/src/life/Main.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Game of Life/task/src/life/Main.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Game of Life/task/src/life/Main.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Game of Life/task/src/life/Main.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

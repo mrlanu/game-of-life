@@ -438,7 +438,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="1" />
+                <option name="currentTaskIndex" value="2" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -509,8 +509,8 @@
                       <option name="id" value="5437" />
                       <option name="index" value="2" />
                       <option name="name" value="Generations" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/GameOfLifeTest.java">
@@ -533,9 +533,23 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/life/Main.java" />
                                 <option name="text" value="package life;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/life/Universe.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/life/Universe.java" />
+                                <option name="text" value="" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -655,6 +669,20 @@
                                 <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/life/Main.java" />
                                 <option name="text" value="package life;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/life/Universe.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/life/Universe.java" />
+                                <option name="text" value="package life;&#10;&#10;import java.util.Random;&#10;&#10;public class Universe {&#10;&#10;    private int size;&#10;    private char[][] currentGeneration;&#10;    private char[][] nextGeneration;&#10;&#10;    public Universe(int size, Random random) {&#10;        this.size = size;&#10;        this.currentGeneration = new char[size][size];&#10;        this.nextGeneration = new char[size][size];&#10;&#10;        for (int y = 0; y &lt; size; y++){&#10;            for (int x = 0; x &lt; size; x++){&#10;                if(random.nextBoolean()){&#10;                    currentGeneration[y][x] = 'O';&#10;                }else currentGeneration[y][x] = ' ';&#10;            }&#10;        }&#10;    }&#10;&#10;    public void printCurrentGeneration(){&#10;        for (int y = 0; y &lt; this.size; y++){&#10;            for (int x = 0; x &lt; this.size; x++){&#10;                System.out.print(this.currentGeneration[y][x]);&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;&#10;    public void printNextGeneration(){&#10;        for (int y = 0; y &lt; this.size; y++){&#10;            for (int x = 0; x &lt; this.size; x++){&#10;                System.out.print(this.nextGeneration[y][x]);&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;&#10;    public int getSize() {&#10;        return size;&#10;    }&#10;&#10;    public void setSize(int size) {&#10;        this.size = size;&#10;    }&#10;&#10;    public char[][] getCurrentGeneration() {&#10;        return currentGeneration;&#10;    }&#10;&#10;    public void setCurrentGeneration(char[][] currentGeneration) {&#10;        this.currentGeneration = currentGeneration;&#10;    }&#10;&#10;    public char[][] getNextGeneration() {&#10;        return nextGeneration;&#10;    }&#10;&#10;    public void setNextGeneration(char[][] nextGeneration) {&#10;        this.nextGeneration = nextGeneration;&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
